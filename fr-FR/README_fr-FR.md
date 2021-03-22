@@ -6,17 +6,24 @@ De la base aux subtilités du langage : testez votre compréhension de JavaScrip
 
 Les réponses se trouvent dans les sections repliées en dessous des questions, cliquez simplement dessus pour les faire apparaître. Bonne chance :heart:
 
-* [English](./README.md)
-* [中文版本](./README-zh_CN.md)
-* [Versión en español](./README-ES.md)
-* [日本語](./README-ja_JA.md)  
-* [한국어](./README-ko_KR.md) 
-* [Русский](./ru-RU/README.md)
-* [Western Balkan](./README-bs_BS.md)  
-* [Deutsch](./README-de_DE.md)  
-* [Tiếng Việt](./README-vi.md)
-* [Українська мова](./README-ua_UA.md)  
-* [Português Brasil](./README_pt_BR.md)  
+- [🇸🇦 العربية](./ar-AR/README_AR.md)
+- [🇪🇬 اللغة العامية](./ar-EG/README_ar-EG.md)
+- [🇧🇦 Bosanski](./bs-BS/README-bs_BS.md)
+- [🇩🇪 Deutsch](./de-DE/README.md)
+- [🇬🇧 English](../README.md)
+- [🇪🇸 Español](./es-ES/README-ES.md)
+- [🇮🇩 Indonesia](./id-ID/README.md)
+- [🇯🇵 日本語](./ja-JA/README-ja_JA.md)
+- [🇰🇷 한국어](./ko-KR/README-ko_KR.md)
+- [🇳🇱 Nederlands](./nl-NL/README.md)
+- [🇧🇷 Português Brasil](./pt-BR/README_pt_BR.md)
+- [🇷🇺 Русский](./ru-RU/README.md)
+- [🇹🇭 ไทย](./th-TH/README-th_TH.md)
+- [🇹🇷 Türkçe](./tr-TR/README-tr_TR.md)
+- [🇺🇦 Українська мова](./uk-UA/README.md)
+- [🇻🇳 Tiếng Việt](./vi-VI/README-vi.md)
+- [🇨🇳 简体中文](./zh-CN/README-zh_CN.md)
+- [🇹🇼 繁體中文](./zh-TW/README_zh-TW.md)
 
 ---
 
@@ -136,7 +143,7 @@ Il n'y a pas de valeur `radius` dans cet objet, on retournera `undefined`.
 
 L'opérateur arithmétique `+` essait de convertir un opérande en une valeur numérique. `true` devient `1`, et `false` devient `0`.
 
-La chaine de caractère `'Lydia'` est une valeur considérée comme vraie _(truthy)_. Ce que nous sommes actuellement en train de demander, c'est "est-ce que cette valeur considérée comme vraie est fausse ?". Ce qui retournera `false`.
+La chaîne de caractère `'Lydia'` est une valeur considérée comme vraie _(truthy)_. Ce que nous sommes actuellement en train de demander, c'est "est-ce que cette valeur considérée comme vraie est fausse ?". Ce qui retournera `false`.
 
 </p>
 </details>
@@ -166,7 +173,7 @@ const mouse = {
 
 #### Réponse : A
 
-En JavaScript, toutes les clés d'objet sont des chaines de caractères (sauf si c'est un Symbol). Bien que nous ne puissions pas les _typer_ comme des chaines de caractères, elles sont converties en chaines de caractères sous le capot.
+En JavaScript, toutes les clés d'objet sont des chaînes de caractères (sauf si c'est un Symbol). Bien que nous ne puissions pas les _typer_ comme des chaînes de caractères, elles sont converties en chaînes de caractères sous le capot.
 
 JavaScript interprète (ou décompresse) les instructions. Lorsque nous utilisons la notation pas crochet, il voit le premier crochet `[` et continue jusqu'à ce qu'il trouve le crochet fermant `]`. Seulement après, il évalue l'instruction.
 
@@ -205,7 +212,7 @@ console.log(d.greeting);
 
 En JavaScript, tous les objets interagissent par _référence_ lorsqu'on les définit égaux les uns aux autres.
 
-Premièrement, la variable `c` contaient une valeur d'objet. Plus tard, nous assignons `d` avec la même réference que `c` à l'objet.
+Premièrement, la variable `c` contaient une valeur d'objet. Plus tard, nous assignons `d` avec la même référence que `c` à l'objet.
 
 <img src="https://i.imgur.com/ko5k0fs.png" width="200">
 
@@ -474,7 +481,7 @@ sum(1, "2");
 
 JavaScript est un **langage à types dynamiques** : nous n'avons pas besoin de spécifier le types des variables. Les valeurs peuvent être automatiquement converties vers les autres types sans que vous le sachiez, c'est ce que l'on appelle _la conversion de types implicites_ _(implicit type coercion)_.
 
-Dans cette exemple, JavaScript convertit le nombre `1` en un chaine de caractère, afin que la fonction ait du sens et puisse renvoyer une valeur. Durant l'addition d'un type numérique (`1`) et d'un type chaine de caractère (`'2'`), le nombre est traité comme une chaine de caractère. Nous pouvons concaténer les chaines de caractères comme `"Hello" + "World"`, c'est donc ce qui arrive ici avec `"1" + "2"` qui retourne `"12"`.
+Dans cette exemple, JavaScript convertit le nombre `1` en une chaîne de caractère, afin que la fonction ait du sens et puisse renvoyer une valeur. Durant l'addition d'un type numérique (`1`) et d'un type chaîne de caractère (`'2'`), le nombre est traité comme une chaîne de caractère. Nous pouvons concaténer les chaînes de caractères comme `"Hello" + "World"`, c'est donc ce qui arrive ici avec `"1" + "2"` qui retourne `"12"`.
 
 </p>
 </details>
@@ -541,7 +548,7 @@ getPersonInfo`${person} is ${age} years old`;
 
 #### Réponse : B
 
-Si vous utilisez les littéraux de gabarits, la valeur du premier argument sera toujours un tableau de valeurs des chaines de caractère. Le reste des arguments seront les valeurs des expressions utilisées !
+Si vous utilisez les littéraux de gabarits, la valeur du premier argument sera toujours un tableau de valeurs des chaînes de caractère. Le reste des arguments seront les valeurs des expressions utilisées !
 
 </p>
 </details>
@@ -679,7 +686,7 @@ sessionStorage.setItem("cool_secret", 123);
 
 #### Réponse : B
 
-La donnée stocké dans le `sessionStorage` est supprimée après la fermeture de l'onglet.
+La donnée stockée dans le `sessionStorage` est supprimée après la fermeture de l'onglet.
 
 Si vous utilisez le `localStorage`, la donnée sera là pour toujours, jusqu'à ce que, par exemple, `localStorage.clear()` soit invoquée.
 
@@ -869,7 +876,7 @@ console.log(a[b]);
 
 Les clés d'objet sont automatiquement converties en chaînes de caractères. Nous essayons de définir un objet en tant que clé de l'objet `a`, avec la valeur `123`.
 
-Cependant, lorsque nous transformons un objet en chaine de caractère, il devient `"[Objet objet]"`. Donc, ce que nous disons ici, c'est que un `a["Objet objet"] = 123`. Ensuite, nous pouvons essayer de refaire la même chose. `c` est un autre objet que nous sommes implicitement en train de transformer en chaine de carctère. Donc, `a["Objet objet"] = 456`.
+Cependant, lorsque nous transformons un objet en chaîne de caractère, il devient `"[Objet objet]"`. Donc, ce que nous disons ici, c'est que un `a["Objet objet"] = 123`. Ensuite, nous pouvons essayer de refaire la même chose. `c` est un autre objet que nous sommes implicitement en train de transformer en chaîne de caractère. Donc, `a["Objet objet"] = 456`.
 
 Ensuite, nous affichons `a[b]`, qui est en fait `a["Objet objet"]`. Que nous venons de définir à `456`, nous renvoyons donc `456`.
 
@@ -1041,7 +1048,7 @@ typeof sayHi();
 
 La fonction `sayHi` renvoie la valeur renvoyée par la fonction immédiatement appelée (IIFE). Cette fonction a renvoyé `0`, qui est du type `"nombre"`.
 
-Pour info : il n'y a que 7 types natifs : `null`, `undefined`, `boolean`, `number`, `string`, `object` et `symbol`. `"function"` n'est pas un type, puisque les fonctions sont des objets, il est de type `"object"`.
+Pour info : il n'y a que 7 types natifs : `null`, `undefined`, `boolean`, `number`, `string`, `object`, `symbol` et `bigint`. `"function"` n'est pas un type, puisque les fonctions sont des objets, il est de type `"object"`.
 
 </p>
 </details>
@@ -1075,7 +1082,7 @@ Il n'y a que six valeurs de fausses :
 - `null`
 - `NaN`
 - `0`
-- `''` (chaine de caractère vide)
+- `''` (chaîne de caractère vide)
 - `false`
 
 Les constructeurs de fonctions, comme `new Number` et `new Boolean` sont la vraies.
@@ -1544,7 +1551,7 @@ console.log(person, birthYear);
 
 #### Réponse : A
 
-Les arguments sont passés par _valeur_, à moins que leur valeur ne soit un objet, ils sont passés par _réfèrence_. `birthYear` est passée par valeur, car c'est une chaîne, pas un objet. Lorsque nous passons des arguments par valeur, une copie de cette valeur est créée (voir question 46).
+Les arguments sont passés par _valeur_, à moins que leur valeur ne soit un objet, ils sont passés par _référence_. `birthYear` est passée par valeur, car c'est une chaîne, pas un objet. Lorsque nous passons des arguments par valeur, une copie de cette valeur est créée (voir question 46).
 
 La variable `birthYear` a une référence à la valeur `"1997"`. L'argument `year` fait également référence à la valeur `"1997"`, mais il ne s'agit pas de la même valeur que celle de `birthYear`. Lorsque nous mettons à jour la valeur de `year` en plaçant `year` égal à `"1998"`, nous ne mettons à jour que la valeur de `year`. `birthYear` est toujours égal à `"1997"`.
 
@@ -1798,7 +1805,7 @@ La variable `name` a été déclarée avec un mot-clé `const`. Par conséquent,
 
 ```javascript
 const numbers = [1, 2, 3, 4, 5];
-const [y] = numberes;
+const [y] = numbers;
 
 console.log(y);
 ```
@@ -1919,7 +1926,7 @@ Le second argument de `JSON.stringify` est le _replaçant_. Le remplaçant peut 
 
 Si le remplaçant est un _tableau_, seules les propriétés dont les noms sont inclus dans le tableau seront ajoutées à la chaîne JSON. Dans ce cas, seules les propriétés avec les noms `"level"` et `"health"` sont incluses, `"username"` est exclu. `data` est maintenant égal à `"{"level":19, "health":90}"`.
 
-Si le remplaceur est une _fonction_, cette fonction est appelée sur chaque propriété de l'objet que vous personnalisez. La valeur renvoyée par cette fonction sera la valeur de la propriété lorsqu'elle sera ajoutée à la chaîne JSON. Si la valeur est `undefined`, cette propriété est exclue de la chaîne JSON.
+Si le remplaçant est une _fonction_, cette fonction est appelée sur chaque propriété de l'objet que vous personnalisez. La valeur renvoyée par cette fonction sera la valeur de la propriété lorsqu'elle sera ajoutée à la chaîne JSON. Si la valeur est `undefined`, cette propriété est exclue de la chaîne JSON.
 
 </p>
 </details>
@@ -1957,3 +1964,43 @@ L'opérateur arithmétique `++` _renvoie en premier_ la valeur de l'opérande, _
 
 </p>
 </details>
+
+---
+
+###### 64. Quelle est la sortie?
+
+```javascript
+const value = { number: 10 };
+
+const multiply = (x = { ...value }) => {
+  console.log((x.number *= 2));
+};
+
+multiply();
+multiply();
+multiply(value);
+multiply(value);
+```
+
+- A: `20`, `40`, `80`, `160`
+- B: `20`, `40`, `20`, `40`
+- C: `20`, `20`, `20`, `40`
+- D: `NaN`, `NaN`, `20`, `40`
+
+<details><summary><b>Répondre</b></summary>
+<p>
+
+#### Répondre: C
+
+Dans ES6, nous pouvons initialiser les paramètres avec une valeur par défaut. La valeur du paramètre sera la valeur par défaut, si aucune autre valeur n'a été passée à la fonction, ou si la valeur du paramètre est `"undefined"`. Dans ce cas, nous répartissons les propriétés de l'objet `value` dans un nouvel objet, donc `x` a la valeur par défaut `{number: 10}`.
+
+L'argument par défaut est évalué at _call time_! Chaque fois que nous appelons la fonction, un a _new_ object  créé. Nous invoquons la fonction `multiply` les deux premières fois sans passer de valeur: `x` a la valeur par défaut `{number: 10}`. Nous enregistrons ensuite la valeur multipliée de ce nombre, qui est `20`.
+
+La troisième fois que nous invoquons multiplier, nous passons un argument: l'objet appelé `value`. L'opérateur `* =` est en fait un raccourci pour `x.number = x.number * 2`: nous modifions la valeur de `x.number`, et enregistrons la valeur multipliée `20`.
+
+La quatrième fois, nous passons à nouveau l'objet `value`. `x.number` a été précédemment modifié en `20`, donc `x.number * = 2` enregistre «40».
+
+</p>
+</details>
+
+---
